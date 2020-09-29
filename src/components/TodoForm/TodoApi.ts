@@ -1,6 +1,6 @@
 import { Todo } from "../../models/Todo";
 
-const url = process.env.APP_BACKEND_URL;
+const url = process.env.REACT_APP_BACKEND_URL;
 
 export const getAllTodos = async () => {
   return await fetch(url + "api/todos").then((response) => response.json());

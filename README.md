@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Configuring
+
+Environment Variables
+
+### `REACT_APP_BACKEND_URL - url of backend api. for example http://localhost:3000/`
 
 ## Available Scripts
 
