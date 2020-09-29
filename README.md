@@ -2,7 +2,7 @@
 
 Environment Variables
 
-### `REACT_APP_BACKEND_URL - url of backend api. for example http://localhost:3000/`
+`REACT_APP_BACKEND_URL` - url of backend api. for example http://localhost:3000/
 
 ## Available Scripts
 
