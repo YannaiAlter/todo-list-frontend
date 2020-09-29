@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
-
-import TodoForm from "./components/TodoForm/TodoForm";
+import TodoForm from "./components/TodoForm/TodoContainer";
 
 function App() {
   return (
     <div className="App">
-      <TodoForm todos={[{ content: "Welcome to Yannai's todo", id: 1 }]} />
+      <TodoForm />
     </div>
   );
 }
