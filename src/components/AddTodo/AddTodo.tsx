@@ -17,10 +17,10 @@ const AddTodo: React.FunctionComponent<IAddTodoProps> = (props) => {
       //Start loading
       setIsLoading(true);
       //Remove input
-      setContent("");
       const todo: Todo = { content: content, isDone: false };
       //Callback parent
-      props.onNew(todo);
+      await props.onNew(todo);
+      setContent("");
       setIsLoading(false);
     }
   };
