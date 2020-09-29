@@ -36,6 +36,7 @@ export const Checkbox = styled.input`
 
 export const Text = styled.label`
   text-align: center;
+  word-break: break-word;
   width: fit-content;
   margin: auto 0 auto 0;
 `;
